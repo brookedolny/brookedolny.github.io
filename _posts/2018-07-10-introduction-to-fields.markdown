@@ -57,8 +57,8 @@ As mentioned above, an example of a field is the real numbers, $$ \mathbb{R} $$.
 **1**, **2**, **5**, **6**, and **7** before. The additive and multiplicative identity elements are $$ 0 $$ and $$ 1 $$
 respectively, and the additive inverse of a real number $$ x $$ is $$ -x $$.
 
-For property **9**, the multiplicative inverse of $$ x $$ is $$ x^{-1} $$, which is intuitively equal to
-$$ \frac{1}{x} $$, which is division! This is obviously equal to $$ 1 $$!
+For property **9**, the multiplicative inverse of $$ x $$ is $$ x^{-1} $$, which, in this case, is intuitively equal to
+$$ \frac{1}{x} $$, since we know that $$ x \times \frac{1}{x} = 1 $$ (of course, this is for $$ x \neq 0 $$).
 
 An example of a set of numbers that isn't a field is the integers, $$ \mathbb{Z} $$.
 The integers satisfy properties **1** to **8**, but they don't satisfy property **9**! the multiplicative
