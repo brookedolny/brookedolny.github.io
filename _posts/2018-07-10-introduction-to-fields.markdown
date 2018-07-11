@@ -16,9 +16,11 @@ introduction out of the way, lets get started!
 You can think of a field as a generalized version of the real and rational numbers.
 These number sets have some common properties, and we can come up with a more general notion
 of what it means for a set to be "like the real numbers". Of course, this is math,
-and so we require a more formal definition of a field:
+and so we require a more formal definition of a field!
 
-We call a set $$ \mathbb{F} $$ a **field** if there are operators $$ + $$
+## Definition and Examples
+
+**Definition:** We call a set $$ \mathbb{F} $$ a **field** if there are operators $$ + $$
 (commonly called **addition**) and $$ \times $$ (commonly called **multiplication**)
 such that all of the following properties are true:
 
@@ -38,25 +40,38 @@ such that all of the following properties are true:
 $$ x \times y $$ is often denoted as $$ x \cdot y $$, or $$ xy $$.
 
 If you haven't seen these symbols before, this can be kind of intimidating.
-These symbols have really nice english words associated with them:
+Luckily, these symbols have really nice english words associated with them!
 
  - $$ x\in S $$ is read as "$$ x $$ is an **element of** $$ S $$," where $$ S $$ is a set.
  - $$ \forall $$ is read as "**for all**"
  - $$ \exists $$ is read as "**there exists**"
 
 Reading the above statements in plain english probably makes a bit more sense, but regardless,
-I'm sure me just listing a bunch of abstract properties can make this seem confusing.
+I'm sure a list of a bunch of abstract properties is still a bit confusing.
 So, I'll give some examples.
 
 As mentioned above, an example of a field is the real numbers, $$ \mathbb{R} $$. You have probably seen properties
-1, 2, 5, 6, and 7 before. The additive and multiplicative identity elements are $$ 0 $$ and $$ 1 $$
+**1**, **2**, **5**, **6**, and **7** before. The additive and multiplicative identity elements are $$ 0 $$ and $$ 1 $$
 respectively, and the additive inverse of a real number $$ x $$ is $$ -x $$.
 
-For property 9, the multiplicative inverse of $$ x $$ is $$ x^{-1} $$, which is equal to
+For property **9**, the multiplicative inverse of $$ x $$ is $$ x^{-1} $$, which is equal to
 $$ \frac{1}{x} $$. So, $$ x \times x^{-1} = x \times \frac{1}{x} = x \div x $$ ! This is
 obviously equal to $$ 1 $$!
 
 An example of a set of numbers that isn't a field is the integers, $$ \mathbb{Z} $$.
-The integers satisfy properties 1 to 8, but they don't satisfy property 9! the multiplicative
+The integers satisfy properties **1** to **8**, but they don't satisfy property **9**! the multiplicative
 inverse of an integer $$ x $$ is a rational number, $$ \frac{1}{x} $$, which is not in the integers for
 most values of $$ x $$ (but it is in the rationals, which do form a field!).
+
+## Applications
+
+Well, this is great, but it's not entirely obvious why this is useful. Well, as mentioned at the beginning of this post,
+field theory is often useful for developing methods of encryption. In the case of encryption,
+we want to be able to decrypt a message that we've encrypted. That is, we want to be able to
+_invert_ the encryption process. Well...if you recall properties **4** and **9** from above,
+operations in a field are invertible!
+
+Of course, the examples I gave are examples of fields
+with an non-finite number of elements in the set, which can cause problems for computers
+(since computers have a finite amount of space to work with). Of course, we can develop fields with
+a finite number of elements, but that's a discussion for another time!
