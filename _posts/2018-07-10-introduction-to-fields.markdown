@@ -4,7 +4,7 @@ title:  "Introduction to Fields"
 description: An simple introduction to basic field theory.
 date:   2018-07-10 17:48:00 -0400
 categories:
-tags: crypto math
+tags: cryptography encryption math
 ---
 
 Field theory forms the basis for all forms of encryption systems where decryption is desired.
