@@ -6,9 +6,8 @@ date:   2018-07-10 17:48:00 -0400
 categories:
 tags: cryptography encryption math
 ---
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
 Field theory forms the basis for all forms of encryption systems where decryption is desired.
 RSA, ECC, and AES (which are acronyms you may or may not have heard of)
@@ -27,18 +26,18 @@ and so we require a more formal definition of a field!
 (commonly called **addition**) and $$ \times $$ (commonly called **multiplication**)
 such that all of the following properties are true:
 
-1. $$ + $$ is **commutative**: $$ \quad \forall x, y\in\mathbb{F}, \; x + y = y + x $$   
-2. $$ + $$ is **associative**: $$ \quad  \forall x, y, z\in\mathbb{F}, \; (x + y) + z = x + (y + z) $$    
-3. existence of an **additive identity**: $$ \quad \exists 0 \in\mathbb{F} $$ such that $$ \forall x\in\mathbb{F}, \; x + 0 = 0 + x = x $$
-4. existence of an **additive inverse**: $$ \quad \forall x \in\mathbb{F}, \; \exists (-x) \in \mathbb{F} $$
-   such that $$ x + (-x) = -x + x = 0 $$
-5. $$ \times $$ is **commutative**: $$ \quad \forall x, y\in\mathbb{F}, \; x \times y = y \times x $$    
-6. $$ \times $$ is **associative**: $$ \quad \forall x, y, z\in\mathbb{F}, \; (x \times y) \times z = x \times (y \times z) $$    
-7. **distributivity** of $$ \times $$ over $$ + $$: $$ \quad \forall x, y, z \in \mathbb{F}, \; x \times (y + z) = x \times y + x \times z $$
-8. existence of a **multiplicative identity**: $$ \quad \exists 1 \in\mathbb{F} $$ such that
-   $$ \forall x\in\mathbb{F}, \; x \neq 0, \; x \times 1 = 1 \times x = x $$
-9. existence of an **multiplicative inverse**: $$ \quad \forall x \in\mathbb{F}, \; x \neq 0, \; \exists x^{-1} \in\mathbb{F} $$
-   such that $$ x \times x^{-1} = 1 $$
+1. $$ + $$ is **commutative**: $$ \; \forall x, y\in\mathbb{F}, \; x + y = y + x $$   
+2. $$ + $$ is **associative**: $$ \;  \forall x, y, z\in\mathbb{F}, \; (x + y) + z = x + (y + z) $$    
+3. existence of an **additive identity**: $$ \; \exists 0 \in\mathbb{F} \, $$ such that $$ \, \forall x\in\mathbb{F}, \; x + 0 = 0 + x = x \, $$
+4. existence of an **additive inverse**: $$ \; \forall x \in\mathbb{F}, \; \exists (-x) \in \mathbb{F} \; $$
+   such that $$ \, x + (-x) = -x + x = 0 $$
+5. $$ \times $$ is **commutative**: $$ \; \forall x, y\in\mathbb{F}, \; x \times y = y \times x $$    
+6. $$ \times $$ is **associative**: $$ \; \forall x, y, z\in\mathbb{F}, \; (x \times y) \times z = x \times (y \times z) $$    
+7. **distributivity** of $$ \times $$ over $$ + $$: $$ \; \forall x, y, z \in \mathbb{F}, \; x \times (y + z) = x \times y + x \times z $$
+8. existence of a **multiplicative identity**: $$ \; \exists 1 \in\mathbb{F} \, $$ such that
+   $$ \, \forall x\in\mathbb{F}, \; x \neq 0, \; x \times 1 = 1 \times x = x $$
+9. existence of an **multiplicative inverse**: $$ \; \forall x \in\mathbb{F}, \; x \neq 0, \; \exists x^{-1} \in\mathbb{F} \; $$
+   such that $$ \, x \times x^{-1} = 1 $$
 
 $$ x \times y $$ is often denoted as $$ x \cdot y $$, or $$ xy $$.
 
