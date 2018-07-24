@@ -164,16 +164,16 @@ $$
 We're now going to add a third row, where:
 
 $$
-q_{i} = \left\lfloor\frac{r_{1}}{r_{2}}\right\rfloor = \left\lfloor\frac{210}{123}\right\rfloor = 1
+q_{3} = \left\lfloor\frac{r_{1}}{r_{2}}\right\rfloor = \left\lfloor\frac{210}{123}\right\rfloor = 1
 $$
 
 so,
 
 $$
 \begin{align}
-x_{i} &= 1 - (1)(0) = 1 \\
-y_{i} &= 0 - (1)(1) = -1 \\
-r_{i} &= 210 - 1(123) = 87 \\
+x_{3} &= 1 - (1)(0) = 1 \\
+y_{3} &= 0 - (1)(1) = -1 \\
+r_{3} &= 210 - 1(123) = 87 \\
 \end{align}
 $$
 
