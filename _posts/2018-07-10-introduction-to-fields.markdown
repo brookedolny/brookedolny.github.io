@@ -6,11 +6,8 @@ date:   2018-07-10 17:48:00 -0400
 categories:
 tags: cryptography encryption math
 ---
-<<<<<<< HEAD
-=======
 
 <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
->>>>>>> drafts
 
 Field theory forms the basis for all forms of encryption systems where decryption is desired.
 RSA, ECC, and AES (which are acronyms you may or may not have heard of)
