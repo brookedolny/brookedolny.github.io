@@ -2,7 +2,7 @@
 layout: post
 title:  "Introduction to Fields (Part 2)"
 description: An introduction to finite fields.
-date:   2018-07-12 18:00:00 -0400
+date:   2018-07-23 18:00:00 -0400
 categories:
 tags: cryptography encryption math
 ---
@@ -79,10 +79,7 @@ int gcd(int a, int b) {
 }
 {% endhighlight %}
 
-This (obviously) requires that $$ a \gt b $$, but that's fine. This example is just meant
-to demonstrate the simplicity of the algorithm.
-
-Anyway, this is great, but is there a way to guarantee that the result of this algorithm is actually correct?
+_Cool._ This is great, but is there a way to guarantee that the result of this algorithm is actually correct?
 (Hint, there is!)
 
 **Theorem (GCD Characterization Theorem)** if $$ d $$ is a positive common divisor of $$ a $$ and $$ b $$, and there exist integers
