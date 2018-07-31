@@ -71,9 +71,11 @@ This is ultra nice because it's really easy to write a function to calculate the
 $$ a $$ and $$ b \,$$:
 
 {% highlight c %}
+#include <stdlib.h>
+
 int gcd(int a, int b) {
     if (b == 0) {
-        return a;
+        return abs(a);
     }
     return gcd(b, a % b);
 }
