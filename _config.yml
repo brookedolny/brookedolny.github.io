@@ -13,23 +13,39 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+# title: Brooke Dolny
+# email: brookedolny@gmail.com
 title: Brooke Dolny
-email: brookedolny@gmail.com
+author:
+  name: Brooke Dolny
+  email: bmdolny@uwaterloo.ca
 description: >- # this means to ignore newlines until "baseurl:"
-  Software Engineering student at the University of Waterloo. Passionate about math and hockey.
+  Master's of Mathematics at the University of Waterloo. Studying Physics-based Animation.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-linkedin_username: brookedolny
-github_username:  brookedolny
+# linkedin_username: brookedolny
+# github_username:  brookedolny
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
+# remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+
+header_pages:
+  - posts.md
+  - about.md
 
 minima:
   skin: dark
+  social_links:
+    - { platform: github,         user_url: "https://github.com/brookedolny" }
+    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/brookedolny" }
+    - { platform: twitter,        user_url: "https://twitter.com/brookedolny" }
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
