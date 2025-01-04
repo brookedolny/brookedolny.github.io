@@ -20,30 +20,37 @@ author:
   name: Brooke Dolny
   email: bmdolny@uwaterloo.ca
 description: >- # this means to ignore newlines until "baseurl:"
-  Master's of Mathematics at the University of Waterloo. Studying Physics-based Animation.
+  Master's of Mathematics student at the University of Waterloo, 
+  member of the Computational Motion Group.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# linkedin_username: brookedolny
-# github_username:  brookedolny
+logo: /assets/img/logo.jpg
+linkedin: linkedin.com/brookedolny
+github:  github.com/brookedolny
 
 # Build settings
 markdown: kramdown
 # theme: minima
+# theme: minimal
 # remote_theme: jekyll/minima
+
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
 
 header_pages:
   - posts.md
   - about.md
 
-minima:
-  skin: dark
-  social_links:
-    - { platform: github,         user_url: "https://github.com/brookedolny" }
-    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/brookedolny" }
-    - { platform: twitter,        user_url: "https://twitter.com/brookedolny" }
+
+# minima:
+#   skin: dark
+#   social_links:
+#     - { platform: github,         user_url: "https://github.com/brookedolny" }
+#     - { platform: linkedin,       user_url: "https://www.linkedin.com/in/brookedolny" }
+#     - { platform: twitter,        user_url: "https://twitter.com/brookedolny" }
 
 
 

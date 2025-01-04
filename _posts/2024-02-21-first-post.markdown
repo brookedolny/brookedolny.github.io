@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  First Post
-description: 
+description: A short about me with my interests and what I plan to write about here.
+excerpt: A short about me with my interests and what I plan to write about here.
 date:   2024-02-21 18:00:00 -0400
 categories:
 tags: posts about
