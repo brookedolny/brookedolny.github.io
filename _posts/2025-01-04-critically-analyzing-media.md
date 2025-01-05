@@ -2,7 +2,7 @@
 layout: post
 title:  Beginning to Critically Analyze Media. 
 description: Why should we critically analyze media, and how should one begin to do so? Of the media I enjoy, what makes it worthwhile to engage with? 
-date:   2024-01-04 18:00:00 -0400
+date:   2025-01-04 18:00:00 -0400
 categories:
 tags: posts media tv-shows movies books games
 ---
