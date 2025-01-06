@@ -1,16 +1,22 @@
 @import "fonts";
 @import "rouge-github";
 
+html {
+  // height: auto;
+  background-color: #131516;
+}
+
 body {
-  background-color: #fff;
+  // background-color: #131516;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
+  color:#aaa;
   font-weight:400;
+  // height: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#ddd;
   margin:0 0 20px;
 }
 
@@ -27,21 +33,21 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:#c7c2ba;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#a6a39e;
 }
 
 a {
-  color:#267CB9;
+  color:#1796f1;
   text-decoration:none;
 }
 
 a:hover, a:focus {
-  color:#069;
-  font-weight: bold;
+  color:#4ab3ff;
+  // font-weight: bold;
 }
 
 a small {
@@ -61,7 +67,7 @@ a:hover small {
 }
 
 blockquote {
-  border-left:1px solid #e5e5e5;
+  border-left:1px solid #1a1b1c;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -197,7 +203,7 @@ small {
 
 hr {
   border:0;
-  background:#e5e5e5;
+  background:#aaaaaa;
   height:1px;
   margin:0 0 20px;
 }
@@ -215,6 +221,7 @@ footer {
   div.wrapper {
     width:auto;
     margin:0;
+    // height:auto;
   }
 
   header, section, footer {
@@ -228,7 +235,7 @@ footer {
   }
 
   section {
-    border:1px solid #e5e5e5;
+    border:1px solid #515151;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
@@ -279,6 +286,7 @@ footer {
 
 @media print {
   body {
+    background-color: #fff;
     padding:0.4in;
     font-size:12pt;
     color:#444;
