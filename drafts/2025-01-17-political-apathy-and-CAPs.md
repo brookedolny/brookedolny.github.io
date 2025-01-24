@@ -1,12 +1,7 @@
 ---
 layout: post
 title:  Political Apathy and Collective Action Problems
-description:  >- 
-A common element in political problems is that they often require collective effort, but the vast majority 
-of people view their individual effort as unimpactful to the large-scale solution. However, the scale
-of people using an argument about their individual impact being small contribute to large-scale 
-phenomena. This is seen with voting, climate change, environmental problems, which
-are all collective action problems. 
+description: A common element in political problems is that they often require collective effort, but the vast majority of people view their individual effort as unimpactful to the large-scale solution. However, the scale of people using an argument about their individual impact being small contribute to large-scale phenomena. This is seen with voting, climate change, environmental problems, which are all collective action problems. 
 date:   2025-01-17 18:00:00 -0400
 categories:
 tags: posts politics opinion
