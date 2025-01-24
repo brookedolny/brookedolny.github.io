@@ -1,10 +1,7 @@
 ---
 layout: post
 title:  Summary of Resume Critique Feedback
-description:  I have been fortunate enough to participate in resume reviews as an early undergraduate student,
-and for the past several years I've been critiquing undergraduate software engineering and 
-computer science students resumes. Here is a summary of the feedback I gave at todays University 
-of Waterloo Computer Science Club internship resume critique event.
+description: I have been fortunate enough to participate in resume reviews as an early undergraduate student, and for the past several years I've been critiquing undergraduate software engineering and computer science students resumes. Here is a summary of the feedback I gave at todays University of Waterloo Computer Science Club internship resume critique event.
 date:   2025-01-23 18:00:00 -0400
 categories:
 tags: posts resume internship advice
